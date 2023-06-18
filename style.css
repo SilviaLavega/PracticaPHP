@@ -1,0 +1,57 @@
+/* --------------------------------------------- ESTILOS BASE --------------------------------------------*/
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e6e8ee !important;
+  padding: 20px;
+}
+
+h2 {
+  color: #333;
+  text-align: center;
+}
+
+/* -------------------------------------------- FORMULARIO ------------------------------------------*/
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #3c2550;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: aliceblue;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 15px;
+}
+
+input[type="submit"] {
+  width: 100% !important;
+  background-color: #444174 !important;
+  color: white !important;
+  padding: 10px 20px;
+  border-radius: 3px;
+  border: 2px solid #090916 !important;
+  border-radius: 5px !important;
+}
+
+input[type="submit"]:hover {
+  width: 100% !important;
+  background-color: #555377 !important;
+  color: white !important;
+  border: 2px solid #090916 !important;
+  border-radius: 5px !important;
+}
